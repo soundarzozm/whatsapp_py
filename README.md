@@ -1,3 +1,5 @@
+How to install chrome driver->
+
 Download from the official page (preferred)
 1] Visit https://sites.google.com/a/chromium.org/chromedriver/downloads
 2] Download and extract (e.g. to ~/bin/ or /usr/local/share/)
