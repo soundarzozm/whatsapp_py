@@ -9,7 +9,7 @@ import socket
 
 message_text='This Script is Amazing' # message you want to send
 no_of_message=10 # no. of time you want the message to be send
-moblie_no_list=[919412028979, 919917419296] # list of phone number can be of any length
+moblie_no_list=[919411111111, 919988888888] # list of phone number can be of any length
 
 def element_presence(by,xpath,time):
     element_present = EC.presence_of_element_located((By.XPATH, xpath))
