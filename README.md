@@ -25,4 +25,4 @@ Download from the official page (preferred, though chromedriver is available in 
 2. Write your message to be send against variable ```message_text```.
 3. Mention the no. of times message is to be sent to each user against variable ```no_of_messages```.
 4. Write all the phone nos. against python array ```mobile_no_list``` in the format ```919871111111```.
-5. Run the script as ```python whatsapp.py```
+5. Run the script as ```python whatsapp.py```.
