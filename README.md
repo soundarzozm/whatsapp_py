@@ -10,8 +10,8 @@ Send whatsapp messages to people using python script.
 #### Installing chrome driver-
 
 Download from the official page (preferred, though chromedriver is available in the repo)-  
-1] Visit ```https://sites.google.com/a/chromium.org/chromedriver/downloads```
-2] Download and extract (e.g. to ```~/bin/``` or ```/usr/local/share/)```
+1] Visit ```https://sites.google.com/a/chromium.org/chromedriver/downloads```.  
+2] Download and extract (e.g. to ```~/bin/``` or ```/usr/local/share/)```.  
 3] Remember to ```sudo chmod +x chromedriver```.
 
 ###### Chromedriver must be available in your path. You can add ```~/bin``` to your path like this:
