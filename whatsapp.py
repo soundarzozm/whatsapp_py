@@ -6,10 +6,34 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 import socket
+import csv
 
-message_text='This Script is Amazing' # message you want to send
+message_text="<3" # message you want to send 
+# y = "😔".encode('utf-8')
+
+# z = y.decode('utf-8')
+# print(z)
+
+# message_text = y
+
 no_of_message=10 # no. of time you want the message to be send
-moblie_no_list=[919411111111, 919988888888] # list of phone number can be of any length
+
+# with open('nums.csv', newline='') as csvfile:
+#     data = list(csv.reader(csvfile))
+    # reader = csv.reader(csvfile)
+    # data = [tuple(row) for row in reader]
+
+mobile_no_list = [919839153053]
+
+# for item in data[0][74:]:
+#     item='91'+item
+#     mobile_no_list.append(item)
+# print(data[0])
+
+
+# mobile_no_list=[919412028979, 919412972376] # list of phone number can be of any length
+
+print(mobile_no_list)
 
 def element_presence(by,xpath,time):
     element_present = EC.presence_of_element_located((By.XPATH, xpath))
@@ -44,9 +68,9 @@ def send_whatsapp_msg(phone_no,text):
 
     except Exception as e:
         print("invailid phone no :"+str(phone_no))
-for moblie_no in moblie_no_list:
+for mobile_no in mobile_no_list:
     try:
-        send_whatsapp_msg(moblie_no,message_text)
+        send_whatsapp_msg(mobile_no,message_text)
 
     except Exception as e:
         sleep(10)
