@@ -67,7 +67,7 @@ def send_whatsapp_msg(phone_no,text):
             txt_box.send_keys("\n")
 
     except Exception as e:
-        print("invailid phone no :"+str(phone_no))
+        print("Invailid Phone Number:"+str(phone_no))
 for mobile_no in mobile_no_list:
     try:
         send_whatsapp_msg(mobile_no,message_text)
