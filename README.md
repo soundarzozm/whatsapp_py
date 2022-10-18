@@ -5,7 +5,7 @@ Send whatsapp messages to people using python script.
 ## Requirements-
 
 1. python
-2. Chrome Driver-
+2. Chrome Driver
 
 #### Installing chrome driver-
 
